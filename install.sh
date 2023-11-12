@@ -80,43 +80,43 @@ echo
 print_brake 70
 echo "* Pterodactyl-AutoThemes Script @ $SCRIPT_VERSION"
 echo
-echo "* Copyright (C) 2021 - $(date +%Y), Ferks-FK."
-echo "* https://github.com/Ferks-FK/Pterodactyl-AutoThemes"
+echo "* Copyright (C) 2021 - $(date +%Y), NurAzliYT"
+echo "* https://github.com/NurAzliYT/Pterodactyl-AutoThemes"
 echo
 echo "* This script is not associated with the official Pterodactyl Project."
 print_brake 70
 echo
 
 Backup() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/backup.sh)
+bash <(curl -s https://raw.githubusercontent.com/NurAzliYT/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/backup.sh)
 }
 
 Dracula() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Dracula/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/NurAzliYT/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Dracula/build.sh)
 }
 
 Enola() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Enola/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/NurAzliYT/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Enola/build.sh)
 }
 
 Twilight() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Twilight/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/NurAzliYT/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/Twilight/build.sh)
 }
 
 ZingTheme() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/ZingTheme/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/NurAzliYT/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/ZingTheme/build.sh)
 }
 
 FlancoTheme() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/FlancoTheme/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/NurAzliYT/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/FlancoTheme/build.sh)
 }
 
 BackgroundVideo() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/BackgroundVideo/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/NurAzliYT/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/BackgroundVideo/build.sh)
 }
 
 AnimatedGraphics() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/AnimatedGraphics/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/NurAzliYT/Pterodactyl-AutoThemes/"${SCRIPT_VERSION}"/themes/version1.x/AnimatedGraphics/build.sh)
 }
 
 
@@ -127,7 +127,7 @@ while [ "$done" == false ]; do
     "Install Enola (Only 1.7.0 and 1.8.1)"
     "Install Twilight (Only 1.7.0 and 1.8.1)"
     "Install Zing Theme (Only 1.6.6 and 1.7.0)"
-    "Install Flanco Theme (Only 1.6.6 and 1.7.0)"
+    "Install Flanco Theme (Only 1.11.4 and 1.11.5)"
     "Install Background Video (Only 1.7.0 and 1.8.1)"
     "Install Animated Graphics (Only 1.6.6 and 1.7.0)"
     
